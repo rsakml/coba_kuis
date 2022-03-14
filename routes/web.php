@@ -17,7 +17,7 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/coba', [HomeController::class, 'home']);
+
 Route::get('/', [HomeController::class, 'home']);
 
 Route::get('/blog', [BlogController::class, 'blog'])-> name('blog');
