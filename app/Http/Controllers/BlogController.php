@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
     public function blog(){
         $blog = Blog::all();
-   
+//    By Della
 
         return view('blog')
                 ->with('title', 'Blog')
