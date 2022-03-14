@@ -9,6 +9,7 @@ class BlogController extends Controller
 {
     public function blog(){
         $blog = Blog::all();
+        $blog = Blog::paginate(2);
 
         return view('blog')
                 ->with('title', 'Blog')
