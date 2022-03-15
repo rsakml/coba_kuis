@@ -10,6 +10,7 @@ class BlogController extends Controller
     public function blog(){
         $blog = Blog::all();
 //    By Della
+//by dell
 
         return view('blog')
                 ->with('title', 'Blog')
