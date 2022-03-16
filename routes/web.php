@@ -28,4 +28,4 @@ Route::get('/blog-detail', [BlogDetailController::class, 'blogDetail'])-> name('
 
 Route::get('/project-detail', [ProjectDetailController::class, 'projectDetail'])-> name('project-detail');
 
-//update route
+//update route baru
