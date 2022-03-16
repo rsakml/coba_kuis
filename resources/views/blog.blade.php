@@ -2,7 +2,7 @@
 @extends('main')
      <!-- MENU BAR -->
 
-
+ <!-- Tes Commit -->
 @section('content')
     <!-- BLOG -->
     <section class="blog section-padding">
@@ -101,9 +101,9 @@
                         <th>Content</th>
                     </tr>
                 </thead>
-              
+
                 <tbody>
-              
+
                     @foreach ($blog as $b)
                         <tr>
                             <td>{{ $b->id }}</td>
@@ -112,12 +112,11 @@
                             <td>{{ $b->content }}</td>
                         </tr>
                     @endforeach
-              
+
                 </tbody>
               </table>
 </section>
 @endsection
-     
 
 
-  
+
