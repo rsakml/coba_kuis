@@ -8,7 +8,7 @@ use App\Models\BlogDetail;
 class BlogDetailController extends Controller
 {
     public function blogDetail(){
-        
+//della
             $blogDetail = BlogDetail::all();
     
             return view('blog-detail')
