@@ -27,3 +27,5 @@ Route::get('/contact', [ContactController::class, 'contact'])-> name('contact');
 Route::get('/blog-detail', [BlogDetailController::class, 'blogDetail'])-> name('blog-detail');
 
 Route::get('/project-detail', [ProjectDetailController::class, 'projectDetail'])-> name('project-detail');
+
+//update
